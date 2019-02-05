@@ -2,6 +2,8 @@
 
 ### Author: Matthew McQuain
 
+## Collaborator: Hai
+
 ### Links and Resources
 
 - [repo](https://github.com/mattoattacko/lab-26-Component-Based-UI)
@@ -10,39 +12,64 @@
 
 ### Modules
 
-#### `modulename.js`
+### `app.js`
 
-##### Exported Values and Methods
+#### Exported Values and Methods
 
-###### `foo(thing) -> string`
+##### `Class Counter`
 
-Usage Notes or examples
+###### `constructor(props)`
 
-###### `bar(array) -> array`
+Declares the state
 
-Usage Notes or examples
+###### `goUp(e)`
 
-### Setup
+Increases `this.state.counter` by 1
 
-#### `.env` requirements
+###### `goDown(e)`
 
-- `PORT` - Port Number
-- `MONGODB_URI` - URL to the running mongo instance/db
+Decreases `this.state.counter` by 1
 
-#### Running the app
+###### `render() -> div`
 
-- `npm start`
-- Endpoint: `/foo/bar/`
-  - Returns a JSON object with abc in it.
-- Endpoint: `/bing/zing/`
-  - Returns a JSON object with xyz in it.
+Returns state.counter, resulting goUp() link, and resulting goDown() link
 
-#### Tests
+##### `Class App`
 
-- How do you run tests?
-- What assertions were made?
-- What assertions need to be / should be made?
+###### `render() -> React.Fragment`
+
+Returns Header, Counter, Footer
+
+### `index.js`
+
+#### Exported Values and Methods
+
+##### `Class Main`
+
+###### `render() -> Component`
+
+Returns App
+
+### `header.js`
+
+#### Exported Values and Methods
+
+##### `Class Header`
+
+###### `render() -> Header`
+
+Returns Header
+
+### `footer.js`
+
+#### Exported Values and Methods
+
+##### `Class Footer`
+
+###### `render() -> Footer`
+
+Returns Footer
 
 #### UML
 
-Link to an image of the UML for your application and response to events
+[Link to UML](assets/image.jpg)
