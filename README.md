@@ -6,7 +6,7 @@
 
 - [repo](https://github.com/mattoattacko/lab-26-Component-Based-UI)
 - [back-end](https://codesandbox.io/s/m3y3z0o3yx)
-- [front-end](http://xyz.com)
+- [front-end](https://m3y3z0o3yx.codesandbox.io/)
 
 ### Modules
 
