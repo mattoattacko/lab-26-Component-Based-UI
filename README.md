@@ -4,7 +4,7 @@
 
 ### Links and Resources
 
-- [repo](http://xyz.com)
+- [repo](https://github.com/mattoattacko/lab-26-Component-Based-UI)
 - [back-end](https://codesandbox.io/s/m3y3z0o3yx)
 - [front-end](http://xyz.com)
 
