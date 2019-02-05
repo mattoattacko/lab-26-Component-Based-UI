@@ -48,6 +48,8 @@ header {
   }
 }
 
+// Currently the footer floats higher than I want it to. No time to edit.
+
 footer {
   background: $background-seahawksBlue;
   color: $seahawks-text;
@@ -59,4 +61,12 @@ footer {
   letter-spacing: 0.2em;
   font-size: 1.1em;
   font-family: "Gravitas One", cursive;
+
+  // Can uncomment this to make the footer position stick to bottom
+  // position: absolute;
+  //   left: 0;
+  //   bottom: 0;
+  //   height: 100px;
+  //   width: 100%;
+  //   overflow: hidden
 }
