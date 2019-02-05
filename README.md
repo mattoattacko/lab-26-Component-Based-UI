@@ -2,7 +2,7 @@
 
 ### Author: Matthew McQuain
 
-## Collaborator: Hai
+#### Collaborator: Hai
 
 ### Links and Resources
 
