@@ -1,0 +1,62 @@
+$spaciousness: 2em;
+$handwriting: "Gravitas One", cursive;
+$background-seahawksGreen: #69be28;
+$background-seahawksBlue: #002244;
+$seahawks-text: #a5acaf;
+
+@import url("https://fonts.googleapis.com/css?family=Gravitas+One");
+
+header {
+  background: $background-seahawksBlue;
+  color: #69be28;
+  padding-top: $spaciousness;
+  padding-bottom: $spaciousness;
+  margin-bottom: 3em;
+
+  h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    text-align: center;
+    font-family: "Gravitas One", cursive;
+  }
+}
+
+#counter-style {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: "Gravitas One", cursive;
+
+  #number {
+    padding-left: $spaciousness;
+    padding-right: $spaciousness;
+    font-family: $handwriting;
+    font-size: 5em;
+    color: $seahawks-text;
+  }
+
+  a {
+    font-size: 5em;
+    text-decoration: none;
+    color: $seahawks-text;
+    font-family: $handwriting;
+  }
+
+  a:hover {
+    color: lighten($background-seahawksGreen, 1);
+  }
+}
+
+footer {
+  background: $background-seahawksBlue;
+  color: $seahawks-text;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  margin-top: 7em;
+  text-align: center;
+  text-transform: lowercase;
+  letter-spacing: 0.2em;
+  font-size: 1.1em;
+  font-family: "Gravitas One", cursive;
+}
